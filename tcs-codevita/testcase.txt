@@ -1,0 +1,84 @@
+43
+10
+credit 12
+debit 10
+commit
+abort 1
+read
+credit 30
+debit 4
+rollback 1
+commit
+read
+
+
+90
+8
+read
+credit 10
+debit 12
+debit 8
+credit 7
+abort 1
+commit
+read
+
+
+
+
+
+
+
+
+
+
+
+4
+awakening=snakefangs+wolfbane
+veritaserum=snakefangs+awakening
+dragontonic=snakefangs+velarin
+dragontonic=awakening+veritaserum
+dragontonic
+
+
+6
+oculus=thunderbrew+jellfish
+felix=thunderbrew+pumpkin
+wigenweld=thunderbrew+ladybug
+wigenweld=oculus+felix
+thunderbrew=pumpkin+firefly
+maxima=pumpkin+ladybug
+wigenweld
+
+
+
+
+
+
+
+
+
+
+
+
+
+6
+source jun1 jun3
+jun1 jun2
+jun2 jun4 jun6
+jun4 blue
+jun6 pink yellow
+jun3 red
+blue yellow red pink blue
+
+11
+
+
+4
+source jun1
+jun1 violet jun2 jun3
+jun2 red
+jun3 green yellow
+green yellow red green green violet
+
+9
