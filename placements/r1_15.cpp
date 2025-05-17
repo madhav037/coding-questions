@@ -27,8 +27,8 @@ int editDistanceMemo(string word1, string word2, int m, int n, vector<vector<int
         return dp[m][n] = editDistanceMemo(word1, word2, m - 1, n - 1, dp);
     }
 
-    return dp[m][n] = 1 + min(min(editDistanceMemo(word1, word2, m, n - 1, dp),      
-                                  editDistanceMemo(word1, word2, m - 1, n, dp),     
+    return dp[m][n] = 1 + min(min(editDistanceMemo(word1, word2, m, n - 1, dp),
+                                  editDistanceMemo(word1, word2, m - 1, n, dp),
                                   editDistanceMemo(word1, word2, m - 1, n - 1, dp)),
                               1);
 }

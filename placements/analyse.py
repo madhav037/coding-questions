@@ -34,7 +34,7 @@ response = client.models.generate_content(
                                         2. CODE: solve <function_name> -> then give code for only that function
                                         
                                         make sure to give a proper solution as the solution would be printed on terminal so no markdown or bold will happen so write accordingly.
-                                        also make sure to provide code in c++
+                                        also make sure to provide code in c++ (unless specified)
                                         ''', content]
 )
 
